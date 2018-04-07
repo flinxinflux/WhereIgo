@@ -1,0 +1,1625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wherigo:WigoCartridge xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Wherigo="clr-namespace:YourSelf.Urwigo.Wherigo;assembly=Urwigo" xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns:Actions="clr-namespace:YourSelf.Urwigo.Wherigo.Actions;assembly=Urwigo" key="key17">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Demo-Cache mit Startpunkt Herrengarten</System:String>
+</Name>
+<Description>
+<System:String>Demo-Cache mit Startpunkt Herrengarten
+Universität Siegen, Mathematikdidaktik
+FDE für G (Digitale Medien)
+Dozent: M. Platz</System:String>
+</Description>
+<Visible>
+<System:Boolean>True</System:Boolean>
+</Visible>
+<Image>
+<Wherigo:WigoMedia key="key0">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Herrengarten</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Herrengarten.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Image>
+<Icon>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Icon>
+<Activity>
+<Wherigo:WigoActivityType>TourGuide</Wherigo:WigoActivityType>
+</Activity>
+<StartingLocationDescription>
+<System:String>Herrengarten in Siegen</System:String>
+</StartingLocationDescription>
+<StartingLocation>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8758222237875</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01964339924386</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</StartingLocation>
+<Version>
+<System:String>1.0</System:String>
+</Version>
+<Company>
+<System:String>Universität Siegen, Mathematikdidaktik</System:String>
+</Company>
+<Author>
+<System:String>Melanie Platz</System:String>
+</Author>
+<CreateDate>
+<System:DateTime>03/28/2018 17:52:58</System:DateTime>
+</CreateDate>
+<UpdateDate>
+<System:DateTime>04/07/2018 17:42:29</System:DateTime>
+</UpdateDate>
+<Complete>
+<System:Boolean>False</System:Boolean>
+</Complete>
+<UseLogging>
+<System:Boolean>False</System:Boolean>
+</UseLogging>
+<InlineRequires>
+<System:Boolean>False</System:Boolean>
+</InlineRequires>
+<InlineRequireLuaPath>
+<System:String>?.lua; lua\?.lua; lua\?\init.lua; ?\init.lua</System:String>
+</InlineRequireLuaPath>
+<ObfuscateStrings>
+<System:Boolean>True</System:Boolean>
+</ObfuscateStrings>
+<HashInputAnswers>
+<System:Boolean>True</System:Boolean>
+</HashInputAnswers>
+<ObfuscateIdentifiers>
+<System:Boolean>True</System:Boolean>
+</ObfuscateIdentifiers>
+<ProtectEmulator>
+<System:Boolean>False</System:Boolean>
+</ProtectEmulator>
+<ProtectEmulatorText>
+<System:String xsi:nil="true" />
+</ProtectEmulatorText>
+<ProtectSimulation>
+<System:Boolean>False</System:Boolean>
+</ProtectSimulation>
+<ProtectSimulationText>
+<System:String xsi:nil="true" />
+</ProtectSimulationText>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" ref="key0" />
+</Media>
+<Media>
+<Wherigo:WigoMedia key="key5">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Kaninchen</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Kaninchen_Openclipart_2.png</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia key="key9">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Taler</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Taler_Openclipart.png</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia key="key4">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Briefumschlag</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Briefumschlag_Openclipart.png</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia key="key2">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Bruecke</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Henner_Frieder_Siegen.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia key="key7">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Dilldapp</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Todtnau_-_Dilldapp.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Zones>
+<Wherigo:WigoZone key="key1">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Herrengarten</System:String>
+</Name>
+<Description>
+<System:String>Am 6. Dezember 1927 wurde am Herrengarten in Siegen ein neues Finanzamt eröffnet. Hier hatte das Amt seinen Sitz bis zum im Dezember 1981 begonnenen Umzug an den heutigen Standort im Weidenauer Neubau.</System:String>
+</Description>
+<Visible>
+<System:Boolean>True</System:Boolean>
+</Visible>
+<Image>
+<Wherigo:WigoMedia xsi:nil="true" ref="key0" />
+</Image>
+<Icon>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Icon>
+<DistanceRange>
+<Wherigo:WigoDistance xsi:nil="true" />
+</DistanceRange>
+<ProximityRange>
+<Wherigo:WigoDistance>
+<Value>
+<System:Double>60</System:Double>
+</Value>
+<Unit>
+<Wherigo:WigoDistanceUnit>Meters</Wherigo:WigoDistanceUnit>
+</Unit>
+</Wherigo:WigoDistance>
+</ProximityRange>
+<ShowObjects>
+<Wherigo:WigoZoneShowObjects>OnEnter</Wherigo:WigoZoneShowObjects>
+</ShowObjects>
+<Active>
+<System:Boolean>True</System:Boolean>
+</Active>
+<OriginalPoint>
+<Wherigo:WigoCoordinate xsi:nil="true" />
+</OriginalPoint>
+<Points>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8758159948133</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01941635381832</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</Points>
+<Points>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8757047629913</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01952212032091</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</Points>
+<Points>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8757981977396</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01978019058723</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</Points>
+<Points>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8759049800797</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01967724452472</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</Points>
+<EnterAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</EnterAction>
+<ExitAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</ExitAction>
+<DistantAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</DistantAction>
+<ProximityAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</ProximityAction>
+<ActiveChangedAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</ActiveChangedAction>
+</Wherigo:WigoZone>
+</Zones>
+<Zones>
+<Wherigo:WigoZone key="key3">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Bruecke</System:String>
+</Name>
+<Description>
+<System:String>Henner und Frieder sind zwei in der westfaelischen Stadt Siegen stehende, vom Bildhauer Johann Friedrich Reusch geschaffene Statuen. Die Skulpturen aus Bronzeguss stellen einen Bergmann (Henner) und einen Huettenmann (Frieder) dar. </System:String>
+</Description>
+<Visible>
+<System:Boolean>False</System:Boolean>
+</Visible>
+<Image>
+<Wherigo:WigoMedia xsi:nil="true" ref="key2" />
+</Image>
+<Icon>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Icon>
+<DistanceRange>
+<Wherigo:WigoDistance xsi:nil="true" />
+</DistanceRange>
+<ProximityRange>
+<Wherigo:WigoDistance>
+<Value>
+<System:Double>60</System:Double>
+</Value>
+<Unit>
+<Wherigo:WigoDistanceUnit>Meters</Wherigo:WigoDistanceUnit>
+</Unit>
+</Wherigo:WigoDistance>
+</ProximityRange>
+<ShowObjects>
+<Wherigo:WigoZoneShowObjects>OnEnter</Wherigo:WigoZoneShowObjects>
+</ShowObjects>
+<Active>
+<System:Boolean>True</System:Boolean>
+</Active>
+<OriginalPoint>
+<Wherigo:WigoCoordinate xsi:nil="true" />
+</OriginalPoint>
+<Points>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8746778582717</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01941776403842</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</Points>
+<Points>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8745764123833</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01928520335523</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</Points>
+<Points>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8744633978441</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01950801812067</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</Points>
+<Points>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>50.8745773022605</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>8.01963352770367</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</Points>
+<EnterAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key3" />
+</Owner>
+</Actions:EventAction>
+</EnterAction>
+<ExitAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key3" />
+</Owner>
+</Actions:EventAction>
+</ExitAction>
+<DistantAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key3" />
+</Owner>
+</Actions:EventAction>
+</DistantAction>
+<ProximityAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key3" />
+</Owner>
+</Actions:EventAction>
+</ProximityAction>
+<ActiveChangedAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoZone xsi:nil="true" ref="key3" />
+</Owner>
+</Actions:EventAction>
+</ActiveChangedAction>
+</Wherigo:WigoZone>
+</Zones>
+<Items>
+<Wherigo:WigoItem key="key6">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Briefumschlag</System:String>
+</Name>
+<Description>
+<System:String>In unsere MatheWerkstatt haben sich mehrere Tiere verirrt: Huehner und Kaninchen. Insgesamt sind es 71 Tiere und die Tiere haben zusammen 166 Fuesse. Wie viele Kanninchen sind es?
+
+</System:String>
+</Description>
+<Visible>
+<System:Boolean>True</System:Boolean>
+</Visible>
+<Image>
+<Wherigo:WigoMedia xsi:nil="true" ref="key4" />
+</Image>
+<Icon>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Icon>
+<ObjectLocation>
+<Wherigo:WigoObjectLocation>
+<Container>
+<Wherigo:WigoZone xsi:nil="true" ref="key1" />
+</Container>
+<Location>
+<Wherigo:WigoCoordinate xsi:nil="true" />
+</Location>
+</Wherigo:WigoObjectLocation>
+</ObjectLocation>
+<Commands>
+<Wherigo:WigoCommand key="key16">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Name>
+<System:String>beantworten</System:String>
+</Name>
+<EmptyTargetListText>
+<System:String>Nicht verfügbar</System:String>
+</EmptyTargetListText>
+<Targets>
+<Wherigo:WigoCommandTargets>None</Wherigo:WigoCommandTargets>
+</Targets>
+<ExecuteAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:InputAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<InputContent>
+<Actions:ObjectExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoInput key="key15">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>In_Kaninchen</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<Visible>
+<System:Boolean>True</System:Boolean>
+</Visible>
+<Image>
+<Wherigo:WigoMedia xsi:nil="true" ref="key5" />
+</Image>
+<Icon>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Icon>
+<Text>
+<System:String>Wie viele Kanninchen sind es?</System:String>
+</Text>
+<InputType>
+<Wherigo:WigoInputType>Number</Wherigo:WigoInputType>
+</InputType>
+<GetInputAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:SetAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<LeftContent>
+<Actions:ObjectReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoVariable key="key14">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Va_Kaninchen</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<Type>
+<Wherigo:WigoVariableType>Number</Wherigo:WigoVariableType>
+</Type>
+<Value>
+<System:Double>0</System:Double>
+</Value>
+</Wherigo:WigoVariable>
+</Target>
+</Actions:ObjectReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:InputAnswerExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:InputAnswerExpressionAction>
+</RightContent>
+</Actions:SetAction>
+</Actions>
+<Actions>
+<Actions:IfElseAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:IfElseBranchAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:MessageBoxAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Text>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:String>Super! Gehe weiter zur naechsten Sehenswuerdigkeit!</System:String>
+</Value>
+</Actions:ValueExpressionAction>
+</Text>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Media>
+<Button1Text>
+<System:String xsi:nil="true" />
+</Button1Text>
+<Button2Text>
+<System:String xsi:nil="true" />
+</Button2Text>
+<ButtonClickedAction>
+<Actions:DoAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:DoAction>
+</ButtonClickedAction>
+</Actions:MessageBoxAction>
+</Actions>
+<Actions>
+<Actions:SetAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<LeftContent>
+<Actions:ObjectPropertyReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoItem xsi:nil="true" ref="key6" />
+</Target>
+<Property>
+<System:String>Visible</System:String>
+</Property>
+</Actions:ObjectPropertyReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:Boolean>False</System:Boolean>
+</Value>
+</Actions:ValueExpressionAction>
+</RightContent>
+</Actions:SetAction>
+</Actions>
+<Actions>
+<Actions:SetAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<LeftContent>
+<Actions:ObjectPropertyReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoZone xsi:nil="true" ref="key3" />
+</Target>
+<Property>
+<System:String>Visible</System:String>
+</Property>
+</Actions:ObjectPropertyReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:Boolean>True</System:Boolean>
+</Value>
+</Actions:ValueExpressionAction>
+</RightContent>
+</Actions:SetAction>
+</Actions>
+<Actions>
+<Actions:SetAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<LeftContent>
+<Actions:ObjectPropertyReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoCharacter key="key10">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Fabelwesen: Dilldapp</System:String>
+</Name>
+<Description>
+<System:String>Dilldapp ist eine vor allem im hessischen und oberfraenkischen Raum und im Hunsrueck verbreitete Bezeichnung für eine trottelige Person. Die genaue Herkunft des Wortes ist ungeklaert. Mit dieser Eigenschaft ist der Dilldapp Hauptfigur verschiedener Märchen und Erzaehlungen (unter anderem Clemens Brentano), vergleichbar mit Hans im Glueck. </System:String>
+</Description>
+<Visible>
+<System:Boolean>False</System:Boolean>
+</Visible>
+<Image>
+<Wherigo:WigoMedia xsi:nil="true" ref="key7" />
+</Image>
+<Icon>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Icon>
+<ObjectLocation>
+<Wherigo:WigoObjectLocation>
+<Container>
+<Wherigo:WigoZone xsi:nil="true" ref="key3" />
+</Container>
+<Location>
+<Wherigo:WigoCoordinate xsi:nil="true" />
+</Location>
+</Wherigo:WigoObjectLocation>
+</ObjectLocation>
+<Commands>
+<Wherigo:WigoCommand key="key8">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Name>
+<System:String>Frage</System:String>
+</Name>
+<EmptyTargetListText>
+<System:String>Nicht verfügbar</System:String>
+</EmptyTargetListText>
+<Targets>
+<Wherigo:WigoCommandTargets>None</Wherigo:WigoCommandTargets>
+</Targets>
+<ExecuteAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:MessageBoxAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Text>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:String>Seit heute Morgen bin ich unterwegs und komme gerade zum dritten Mal zur Bruecke zurueck. Wegen der Bedingungen von Henner und Frieder, um die Bruecke zu ueberqueren, habe ich nun keine Taler mehr:
+Henner verdoppelte meine Taler jedes Mal, wenn ich die Bruecke ueberquerte.  Frieder verlangte von mir 8 Taler, jedes Mal, wenn ich zurueck kam. 
+Wie viele Taler hatte ich noch heute Morgen?</System:String>
+</Value>
+</Actions:ValueExpressionAction>
+</Text>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Media>
+<Button1Text>
+<System:String xsi:nil="true" />
+</Button1Text>
+<Button2Text>
+<System:String xsi:nil="true" />
+</Button2Text>
+<ButtonClickedAction>
+<Actions:DoAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:DoAction>
+</ButtonClickedAction>
+</Actions:MessageBoxAction>
+</Actions>
+<Owner>
+<Wherigo:WigoCommand xsi:nil="true" ref="key8" />
+</Owner>
+</Actions:EventAction>
+</ExecuteAction>
+</Wherigo:WigoCommand>
+</Commands>
+<Commands>
+<Wherigo:WigoCommand key="key13">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Name>
+<System:String>beantworten</System:String>
+</Name>
+<EmptyTargetListText>
+<System:String>Nicht verfügbar</System:String>
+</EmptyTargetListText>
+<Targets>
+<Wherigo:WigoCommandTargets>None</Wherigo:WigoCommandTargets>
+</Targets>
+<ExecuteAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:InputAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<InputContent>
+<Actions:ObjectExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoInput key="key12">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>In_Taler</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<Visible>
+<System:Boolean>True</System:Boolean>
+</Visible>
+<Image>
+<Wherigo:WigoMedia xsi:nil="true" ref="key9" />
+</Image>
+<Icon>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Icon>
+<Text>
+<System:String>Wie viele Taler hatte ich heute morgen?</System:String>
+</Text>
+<InputType>
+<Wherigo:WigoInputType>Number</Wherigo:WigoInputType>
+</InputType>
+<GetInputAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:SetAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<LeftContent>
+<Actions:ObjectReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoVariable key="key11">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Va_Taler</System:String>
+</Name>
+<Description>
+<System:String xsi:nil="true" />
+</Description>
+<Type>
+<Wherigo:WigoVariableType>Number</Wherigo:WigoVariableType>
+</Type>
+<Value>
+<System:Double>0</System:Double>
+</Value>
+</Wherigo:WigoVariable>
+</Target>
+</Actions:ObjectReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:InputAnswerExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:InputAnswerExpressionAction>
+</RightContent>
+</Actions:SetAction>
+</Actions>
+<Actions>
+<Actions:IfElseAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:IfElseBranchAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:MessageBoxAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Text>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:String>Sehr gut! Du hast das Raetsel geknackt! Gehe zurueck zum Herrengarten! </System:String>
+</Value>
+</Actions:ValueExpressionAction>
+</Text>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Media>
+<Button1Text>
+<System:String xsi:nil="true" />
+</Button1Text>
+<Button2Text>
+<System:String xsi:nil="true" />
+</Button2Text>
+<ButtonClickedAction>
+<Actions:DoAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:DoAction>
+</ButtonClickedAction>
+</Actions:MessageBoxAction>
+</Actions>
+<Actions>
+<Actions:SetAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<LeftContent>
+<Actions:ObjectPropertyReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoCharacter xsi:nil="true" ref="key10" />
+</Target>
+<Property>
+<System:String>Visible</System:String>
+</Property>
+</Actions:ObjectPropertyReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:Boolean>False</System:Boolean>
+</Value>
+</Actions:ValueExpressionAction>
+</RightContent>
+</Actions:SetAction>
+</Actions>
+<Actions>
+<Actions:SetAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<LeftContent>
+<Actions:ObjectPropertyReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoZone xsi:nil="true" ref="key3" />
+</Target>
+<Property>
+<System:String>Visible</System:String>
+</Property>
+</Actions:ObjectPropertyReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:Boolean>False</System:Boolean>
+</Value>
+</Actions:ValueExpressionAction>
+</RightContent>
+</Actions:SetAction>
+</Actions>
+<Condition>
+<Actions:CompareExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Operator>
+<Actions:CompareExpressionOperator>Equal</Actions:CompareExpressionOperator>
+</Operator>
+<LeftContent>
+<Actions:ObjectReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoVariable xsi:nil="true" ref="key11" />
+</Target>
+</Actions:ObjectReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:Double>7</System:Double>
+</Value>
+</Actions:ValueExpressionAction>
+</RightContent>
+<IgnoreCase>
+<System:Boolean>True</System:Boolean>
+</IgnoreCase>
+</Actions:CompareExpressionAction>
+</Condition>
+</Actions:IfElseBranchAction>
+</Actions>
+<Actions>
+<Actions:IfElseBranchAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:MessageBoxAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Text>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:String>Das war leider falsch. Versuch es doch gleich noch einmal.</System:String>
+</Value>
+</Actions:ValueExpressionAction>
+</Text>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Media>
+<Button1Text>
+<System:String xsi:nil="true" />
+</Button1Text>
+<Button2Text>
+<System:String xsi:nil="true" />
+</Button2Text>
+<ButtonClickedAction>
+<Actions:DoAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:DoAction>
+</ButtonClickedAction>
+</Actions:MessageBoxAction>
+</Actions>
+<Condition>
+<Actions:IExpressionAction xsi:nil="true" />
+</Condition>
+</Actions:IfElseBranchAction>
+</Actions>
+</Actions:IfElseAction>
+</Actions>
+<Owner>
+<Wherigo:WigoInput xsi:nil="true" ref="key12" />
+</Owner>
+</Actions:EventAction>
+</GetInputAction>
+<ErrorAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:MessageBoxAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Text>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:String>Hier können nur Zahlen eingegeben werden!</System:String>
+</Value>
+</Actions:ValueExpressionAction>
+</Text>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Media>
+<Button1Text>
+<System:String xsi:nil="true" />
+</Button1Text>
+<Button2Text>
+<System:String xsi:nil="true" />
+</Button2Text>
+<ButtonClickedAction>
+<Actions:DoAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:DoAction>
+</ButtonClickedAction>
+</Actions:MessageBoxAction>
+</Actions>
+<Owner>
+<Wherigo:WigoInput xsi:nil="true" ref="key12" />
+</Owner>
+</Actions:EventAction>
+</ErrorAction>
+</Wherigo:WigoInput>
+</Target>
+</Actions:ObjectExpressionAction>
+</InputContent>
+</Actions:InputAction>
+</Actions>
+<Owner>
+<Wherigo:WigoCommand xsi:nil="true" ref="key13" />
+</Owner>
+</Actions:EventAction>
+</ExecuteAction>
+</Wherigo:WigoCommand>
+</Commands>
+<ClickAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCharacter xsi:nil="true" ref="key10" />
+</Owner>
+</Actions:EventAction>
+</ClickAction>
+<Gender>
+<Wherigo:WigoCharacterGender>Male</Wherigo:WigoCharacterGender>
+</Gender>
+</Wherigo:WigoCharacter>
+</Target>
+<Property>
+<System:String>Visible</System:String>
+</Property>
+</Actions:ObjectPropertyReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:Boolean>True</System:Boolean>
+</Value>
+</Actions:ValueExpressionAction>
+</RightContent>
+</Actions:SetAction>
+</Actions>
+<Actions>
+<Actions:SetAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<LeftContent>
+<Actions:ObjectPropertyReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoCharacter xsi:nil="true" ref="key10" />
+</Target>
+<Property>
+<System:String>Visible</System:String>
+</Property>
+</Actions:ObjectPropertyReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:Boolean>True</System:Boolean>
+</Value>
+</Actions:ValueExpressionAction>
+</RightContent>
+</Actions:SetAction>
+</Actions>
+<Condition>
+<Actions:CompareExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Operator>
+<Actions:CompareExpressionOperator>Equal</Actions:CompareExpressionOperator>
+</Operator>
+<LeftContent>
+<Actions:ObjectReferenceExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Target>
+<Wherigo:WigoVariable xsi:nil="true" ref="key14" />
+</Target>
+</Actions:ObjectReferenceExpressionAction>
+</LeftContent>
+<RightContent>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:Double>12</System:Double>
+</Value>
+</Actions:ValueExpressionAction>
+</RightContent>
+<IgnoreCase>
+<System:Boolean>True</System:Boolean>
+</IgnoreCase>
+</Actions:CompareExpressionAction>
+</Condition>
+</Actions:IfElseBranchAction>
+</Actions>
+<Actions>
+<Actions:IfElseBranchAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:MessageBoxAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Text>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:String>Das war leider falsch. Versuch es doch gleich noch einmal.</System:String>
+</Value>
+</Actions:ValueExpressionAction>
+</Text>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Media>
+<Button1Text>
+<System:String xsi:nil="true" />
+</Button1Text>
+<Button2Text>
+<System:String xsi:nil="true" />
+</Button2Text>
+<ButtonClickedAction>
+<Actions:DoAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:DoAction>
+</ButtonClickedAction>
+</Actions:MessageBoxAction>
+</Actions>
+<Condition>
+<Actions:IExpressionAction xsi:nil="true" />
+</Condition>
+</Actions:IfElseBranchAction>
+</Actions>
+</Actions:IfElseAction>
+</Actions>
+<Owner>
+<Wherigo:WigoInput xsi:nil="true" ref="key15" />
+</Owner>
+</Actions:EventAction>
+</GetInputAction>
+<ErrorAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Actions>
+<Actions:MessageBoxAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Text>
+<Actions:ValueExpressionAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Value>
+<System:String>Hier können nur Zahlen eingegeben werden!</System:String>
+</Value>
+</Actions:ValueExpressionAction>
+</Text>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" />
+</Media>
+<Button1Text>
+<System:String xsi:nil="true" />
+</Button1Text>
+<Button2Text>
+<System:String xsi:nil="true" />
+</Button2Text>
+<ButtonClickedAction>
+<Actions:DoAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+</Actions:DoAction>
+</ButtonClickedAction>
+</Actions:MessageBoxAction>
+</Actions>
+<Owner>
+<Wherigo:WigoInput xsi:nil="true" ref="key15" />
+</Owner>
+</Actions:EventAction>
+</ErrorAction>
+</Wherigo:WigoInput>
+</Target>
+</Actions:ObjectExpressionAction>
+</InputContent>
+</Actions:InputAction>
+</Actions>
+<Owner>
+<Wherigo:WigoCommand xsi:nil="true" ref="key16" />
+</Owner>
+</Actions:EventAction>
+</ExecuteAction>
+</Wherigo:WigoCommand>
+</Commands>
+<ClickAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoItem xsi:nil="true" ref="key6" />
+</Owner>
+</Actions:EventAction>
+</ClickAction>
+<Locked>
+<System:Boolean>False</System:Boolean>
+</Locked>
+<Opened>
+<System:Boolean>False</System:Boolean>
+</Opened>
+</Wherigo:WigoItem>
+</Items>
+<Characters>
+<Wherigo:WigoCharacter xsi:nil="true" ref="key10" />
+</Characters>
+<Variables>
+<Wherigo:WigoVariable xsi:nil="true" ref="key14" />
+</Variables>
+<Variables>
+<Wherigo:WigoVariable xsi:nil="true" ref="key11" />
+</Variables>
+<Inputs>
+<Wherigo:WigoInput xsi:nil="true" ref="key15" />
+</Inputs>
+<Inputs>
+<Wherigo:WigoInput xsi:nil="true" ref="key12" />
+</Inputs>
+<Player>
+<Wherigo:WigoPlayer>
+<Identifier>
+<System:String>Player</System:String>
+</Identifier>
+</Wherigo:WigoPlayer>
+</Player>
+<CurrentZone>
+<Wherigo:WigoCurrentZone>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentZone>
+</CurrentZone>
+<CurrentCharacter>
+<Wherigo:WigoCurrentCharacter>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentCharacter>
+</CurrentCharacter>
+<CurrentItem>
+<Wherigo:WigoCurrentItem>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentItem>
+</CurrentItem>
+<CurrentTask>
+<Wherigo:WigoCurrentTask>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentTask>
+</CurrentTask>
+<CurrentInput>
+<Wherigo:WigoCurrentInput>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentInput>
+</CurrentInput>
+<CurrentTimer>
+<Wherigo:WigoCurrentTimer>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentTimer>
+</CurrentTimer>
+<Environment>
+<Wherigo:WigoEnvironment>
+<Identifier>
+<System:String>Env</System:String>
+</Identifier>
+</Wherigo:WigoEnvironment>
+</Environment>
+<StartAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:EventAction>
+</StartAction>
+<EndAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:EventAction>
+</EndAction>
+<ResumeAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:EventAction>
+</ResumeAction>
+<SaveAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:EventAction>
+</SaveAction>
+<GlobalZoneEnterAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneEnterAction>
+<GlobalZoneExitAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneExitAction>
+<GlobalZoneDistantAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneDistantAction>
+<GlobalZoneProximityAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneProximityAction>
+<GlobalZoneActiveChangedAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key17" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneActiveChangedAction>
+<UserDirectives>
+<System:String xsi:nil="true" />
+</UserDirectives>
+<UserFunctions>
+<System:String xsi:nil="true" />
+</UserFunctions>
+</Wherigo:WigoCartridge>
